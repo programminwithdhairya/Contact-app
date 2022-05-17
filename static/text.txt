@@ -1,0 +1,1 @@
+this is text file of django and this is a django tutorial and never add a sensitive file in static folder

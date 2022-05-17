@@ -6,8 +6,8 @@ from django.contrib import messages
 # Create your views here.
 def index(request):
     context = {
-        'variable1': "Harry is Great",
-        'variable2': "Rohan is not Great",
+        'variable1': "This is the best website",
+        'variable2': "This is the best app",
     }
 
     return render(request , 'index.html' , context)
@@ -33,5 +33,3 @@ def contact(request):
 
     return render(request , 'contact.html')
 
-# django username : admin
-# django password : admin
